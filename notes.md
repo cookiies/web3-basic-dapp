@@ -1,9 +1,20 @@
-Ropsten Test Network
+# Ropsten Test Network
+    https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
+    3
+    ETH
+    https://ropsten.etherscan.io
 
-https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
 
-3
+# Delete lite-server afterwards (-g = globally): 
+    npm uninstall -g lite-server
+    /usr/local/lib/node_modules/lite-server
 
-ETH
+# add package.json
+    {
+        "scripts": {
+            "dev": "lite-server"
+        }
+    }
 
-https://ropsten.etherscan.io
+# run dev server
+    npm run dev 
